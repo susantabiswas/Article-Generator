@@ -3,6 +3,7 @@ import numpy as np
 
 
 def load_dataset(data_path):
+    # set encoding to 'Latin-1' when using linux kernel dataset
     with open(data_path, encoding='utf-8') as file:
         text_data = file.read().lower()
     #text_data = text_data[:2000000]   when using linux kernel weights
