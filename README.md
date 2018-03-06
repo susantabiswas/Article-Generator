@@ -10,6 +10,8 @@ Output snapshots for Shakespeare:<br><br>
 Another output for Linux kernel dataset:<br><br>
 ![linux](media/2.JPG)
 <br>It generates pretty good results although the model was trained only for 50 epochs with a large batch size of 5000. Better results can be achieved by training it for more number of epochs and reducing the batch size to 128 or less.
+<br><br>
+
 
 ### Model Demo 
 ![demo](media/3.gif)
