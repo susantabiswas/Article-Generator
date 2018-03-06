@@ -118,6 +118,6 @@ generate_article()
 
 # for training
 #print_callback = LambdaCallback(on_epoch_end=on_epoch_end)
-#model.fit(x, y, batch_size=128, epochs=1, callbacks=[print_callback])
+#model.fit(x, y, batch_size=128, epochs=50, callbacks=[print_callback])
 #model.save_weights('wt.h5')
  
